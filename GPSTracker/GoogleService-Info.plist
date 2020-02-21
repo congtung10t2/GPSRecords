@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>83684795305-4tk23q5u37b9hgo5jjvjrvpf9rv0jh7b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.83684795305-4tk23q5u37b9hgo5jjvjrvpf9rv0jh7b</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>83684795305-v3phkr55hd5453rbsdimr0p6ls4e8u4o.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfUnr_UPBXS6SYeywaDdtz8Xh9vO3l05k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>83684795305</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>iotlink.GPSTracker</string>
+	<key>PROJECT_ID</key>
+	<string>gpslogger-b23b4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gpslogger-b23b4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:83684795305:ios:52a838b69fd558f733dab8</string>
+	<key>DATABASE_URL</key>
+	<string>https://gpslogger-b23b4.firebaseio.com</string>
+</dict>
+</plist>

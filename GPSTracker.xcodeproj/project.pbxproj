@@ -3,31 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041048A823FFC3A600CD70B3 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041048A723FFC3A600CD70B3 /* Tracker.swift */; };
+		041048AB23FFC68200CD70B3 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041048AA23FFC68200CD70B3 /* HistoryTableViewCell.swift */; };
+		041048AE23FFCF2700CD70B3 /* CloudTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041048AD23FFCF2700CD70B3 /* CloudTableViewCell.swift */; };
+		0431D88823FF7D5200A31E9E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D88723FF7D5200A31E9E /* CoreDataManager.swift */; };
+		0431D88A23FF7D6000A31E9E /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D88923FF7D6000A31E9E /* Date+Extensions.swift */; };
+		0431D88C23FF7D6A00A31E9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0431D88B23FF7D6A00A31E9E /* GoogleService-Info.plist */; };
+		0431D88E23FF7D7D00A31E9E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D88D23FF7D7D00A31E9E /* LocationManager.swift */; };
+		0431D89023FF7D8B00A31E9E /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D88F23FF7D8B00A31E9E /* LocationModel.swift */; };
+		0431D89223FF7D9700A31E9E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D89123FF7D9700A31E9E /* UIView+Extension.swift */; };
+		0431D89423FF7D9C00A31E9E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D89323FF7D9C00A31E9E /* UIViewController+Extensions.swift */; };
+		0431D89623FF8D4D00A31E9E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D89523FF8D4D00A31E9E /* MapViewController.swift */; };
+		0431D89823FF8D9E00A31E9E /* CloudsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431D89723FF8D9E00A31E9E /* CloudsViewController.swift */; };
 		04AC74C023FE92FA00327708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74BF23FE92FA00327708 /* AppDelegate.swift */; };
 		04AC74C223FE92FA00327708 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74C123FE92FA00327708 /* SceneDelegate.swift */; };
-		04AC74C423FE92FA00327708 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74C323FE92FA00327708 /* FirstViewController.swift */; };
-		04AC74C623FE92FA00327708 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74C523FE92FA00327708 /* SecondViewController.swift */; };
+		04AC74C423FE92FA00327708 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74C323FE92FA00327708 /* HomeViewController.swift */; };
+		04AC74C623FE92FA00327708 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74C523FE92FA00327708 /* HistoryViewController.swift */; };
 		04AC74C923FE92FA00327708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC74C723FE92FA00327708 /* Main.storyboard */; };
 		04AC74CC23FE92FA00327708 /* GPSTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04AC74CA23FE92FA00327708 /* GPSTracker.xcdatamodeld */; };
 		04AC74CE23FE92FC00327708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AC74CD23FE92FC00327708 /* Assets.xcassets */; };
 		04AC74D123FE92FC00327708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AC74CF23FE92FC00327708 /* LaunchScreen.storyboard */; };
+		04F4FCDD66A6E688A280DBD2 /* Pods_GPSTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC0F5DB75DF0CB876753EA3 /* Pods_GPSTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041048A723FFC3A600CD70B3 /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		041048AA23FFC68200CD70B3 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		041048AD23FFCF2700CD70B3 /* CloudTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTableViewCell.swift; sourceTree = "<group>"; };
+		0431D88723FF7D5200A31E9E /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0431D88923FF7D6000A31E9E /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		0431D88B23FF7D6A00A31E9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0431D88D23FF7D7D00A31E9E /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0431D88F23FF7D8B00A31E9E /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		0431D89123FF7D9700A31E9E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0431D89323FF7D9C00A31E9E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		0431D89523FF8D4D00A31E9E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0431D89723FF8D9E00A31E9E /* CloudsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsViewController.swift; sourceTree = "<group>"; };
 		04AC74BC23FE92FA00327708 /* GPSTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AC74BF23FE92FA00327708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AC74C123FE92FA00327708 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04AC74C323FE92FA00327708 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		04AC74C523FE92FA00327708 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04AC74C323FE92FA00327708 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04AC74C523FE92FA00327708 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		04AC74C823FE92FA00327708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04AC74CB23FE92FA00327708 /* GPSTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPSTracker.xcdatamodel; sourceTree = "<group>"; };
 		04AC74CD23FE92FC00327708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AC74D023FE92FC00327708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AC74D223FE92FC00327708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076096DECC1159414D18C388 /* Pods-GPSTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTracker.release.xcconfig"; path = "Target Support Files/Pods-GPSTracker/Pods-GPSTracker.release.xcconfig"; sourceTree = "<group>"; };
+		9E274BCB8DE5563C9ECC4CDC /* Pods-GPSTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTracker.debug.xcconfig"; path = "Target Support Files/Pods-GPSTracker/Pods-GPSTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		BDC0F5DB75DF0CB876753EA3 /* Pods_GPSTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F4FCDD66A6E688A280DBD2 /* Pods_GPSTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041048A923FFC64C00CD70B3 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				04AC74C523FE92FA00327708 /* HistoryViewController.swift */,
+				041048AA23FFC68200CD70B3 /* HistoryTableViewCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		041048AC23FFCEEF00CD70B3 /* Clouds */ = {
+			isa = PBXGroup;
+			children = (
+				0431D89723FF8D9E00A31E9E /* CloudsViewController.swift */,
+				041048AD23FFCF2700CD70B3 /* CloudTableViewCell.swift */,
+			);
+			path = Clouds;
+			sourceTree = "<group>";
+		};
 		04AC74B323FE92FA00327708 = {
 			isa = PBXGroup;
 			children = (
 				04AC74BE23FE92FA00327708 /* GPSTracker */,
 				04AC74BD23FE92FA00327708 /* Products */,
+				19668E0F5004AD0DF9B843B4 /* Pods */,
+				A67F32AA45F4E26BB8FA7C92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +109,44 @@
 		04AC74BE23FE92FA00327708 /* GPSTracker */ = {
 			isa = PBXGroup;
 			children = (
+				041048AC23FFCEEF00CD70B3 /* Clouds */,
+				041048A923FFC64C00CD70B3 /* History */,
 				04AC74BF23FE92FA00327708 /* AppDelegate.swift */,
 				04AC74C123FE92FA00327708 /* SceneDelegate.swift */,
-				04AC74C323FE92FA00327708 /* FirstViewController.swift */,
-				04AC74C523FE92FA00327708 /* SecondViewController.swift */,
+				0431D88723FF7D5200A31E9E /* CoreDataManager.swift */,
+				0431D88F23FF7D8B00A31E9E /* LocationModel.swift */,
+				04AC74C323FE92FA00327708 /* HomeViewController.swift */,
+				0431D88D23FF7D7D00A31E9E /* LocationManager.swift */,
+				0431D89323FF7D9C00A31E9E /* UIViewController+Extensions.swift */,
+				0431D89123FF7D9700A31E9E /* UIView+Extension.swift */,
+				0431D88923FF7D6000A31E9E /* Date+Extensions.swift */,
+				041048A723FFC3A600CD70B3 /* Tracker.swift */,
+				0431D88B23FF7D6A00A31E9E /* GoogleService-Info.plist */,
 				04AC74C723FE92FA00327708 /* Main.storyboard */,
 				04AC74CD23FE92FC00327708 /* Assets.xcassets */,
 				04AC74CF23FE92FC00327708 /* LaunchScreen.storyboard */,
 				04AC74D223FE92FC00327708 /* Info.plist */,
 				04AC74CA23FE92FA00327708 /* GPSTracker.xcdatamodeld */,
+				0431D89523FF8D4D00A31E9E /* MapViewController.swift */,
 			);
 			path = GPSTracker;
+			sourceTree = "<group>";
+		};
+		19668E0F5004AD0DF9B843B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E274BCB8DE5563C9ECC4CDC /* Pods-GPSTracker.debug.xcconfig */,
+				076096DECC1159414D18C388 /* Pods-GPSTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A67F32AA45F4E26BB8FA7C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC0F5DB75DF0CB876753EA3 /* Pods_GPSTracker.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AC74D523FE92FC00327708 /* Build configuration list for PBXNativeTarget "GPSTracker" */;
 			buildPhases = (
+				C6699A5373EB1FAF967C03EB /* [CP] Check Pods Manifest.lock */,
 				04AC74B823FE92FA00327708 /* Sources */,
 				04AC74B923FE92FA00327708 /* Frameworks */,
 				04AC74BA23FE92FA00327708 /* Resources */,
+				BC174B41D251A890F9341D24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AC74D123FE92FC00327708 /* LaunchScreen.storyboard in Resources */,
+				0431D88C23FF7D6A00A31E9E /* GoogleService-Info.plist in Resources */,
 				04AC74CE23FE92FC00327708 /* Assets.xcassets in Resources */,
 				04AC74C923FE92FA00327708 /* Main.storyboard in Resources */,
 			);
@@ -139,16 +218,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC174B41D251A890F9341D24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSTracker/Pods-GPSTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPSTracker/Pods-GPSTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPSTracker/Pods-GPSTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6699A5373EB1FAF967C03EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPSTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04AC74B823FE92FA00327708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AC74C623FE92FA00327708 /* SecondViewController.swift in Sources */,
-				04AC74C423FE92FA00327708 /* FirstViewController.swift in Sources */,
+				0431D88823FF7D5200A31E9E /* CoreDataManager.swift in Sources */,
+				04AC74C623FE92FA00327708 /* HistoryViewController.swift in Sources */,
+				0431D88A23FF7D6000A31E9E /* Date+Extensions.swift in Sources */,
+				04AC74C423FE92FA00327708 /* HomeViewController.swift in Sources */,
+				0431D89023FF7D8B00A31E9E /* LocationModel.swift in Sources */,
+				0431D88E23FF7D7D00A31E9E /* LocationManager.swift in Sources */,
+				041048A823FFC3A600CD70B3 /* Tracker.swift in Sources */,
+				0431D89423FF7D9C00A31E9E /* UIViewController+Extensions.swift in Sources */,
+				0431D89623FF8D4D00A31E9E /* MapViewController.swift in Sources */,
+				041048AB23FFC68200CD70B3 /* HistoryTableViewCell.swift in Sources */,
 				04AC74C023FE92FA00327708 /* AppDelegate.swift in Sources */,
 				04AC74C223FE92FA00327708 /* SceneDelegate.swift in Sources */,
+				0431D89223FF7D9700A31E9E /* UIView+Extension.swift in Sources */,
+				041048AE23FFCF2700CD70B3 /* CloudTableViewCell.swift in Sources */,
 				04AC74CC23FE92FA00327708 /* GPSTracker.xcdatamodeld in Sources */,
+				0431D89823FF8D9E00A31E9E /* CloudsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +422,13 @@
 		};
 		04AC74D623FE92FC00327708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E274BCB8DE5563C9ECC4CDC /* Pods-GPSTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D8B9Q8FP56;
+				DEVELOPMENT_TEAM = C9QT66NNBA;
 				INFOPLIST_FILE = GPSTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,11 +442,13 @@
 		};
 		04AC74D723FE92FC00327708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076096DECC1159414D18C388 /* Pods-GPSTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D8B9Q8FP56;
+				DEVELOPMENT_TEAM = C9QT66NNBA;
 				INFOPLIST_FILE = GPSTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
