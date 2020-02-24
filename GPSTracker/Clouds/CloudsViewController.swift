@@ -46,7 +46,7 @@ class CloudsViewController : UIViewController {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
       let loading = self.showLoading()
       let data = items[indexPath.row]
-      data.getData(maxSize: 1 * 1024 * 1024) { data, error in
+      data.getData(maxSize: 10 * 1024 * 1024) { data, error in
         self.hideLoading(hud: loading)
         do {
           let decoder = JSONDecoder()
